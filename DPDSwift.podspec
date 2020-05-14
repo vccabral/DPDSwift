@@ -1,8 +1,7 @@
 Pod::Spec.new do |s|
 
 # 1
-s.platform = :ios
-s.ios.deployment_target = '11.4'
+s.platforms = { :ios => "11.4", :tvos => "9.0" }
 s.name = "DPDSwift"
 s.summary = "DPDSwift is an iOS library, that helps facilitate the use of Deployd for iOS Development."
 s.requires_arc = true
